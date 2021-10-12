@@ -1,4 +1,4 @@
-package td1.original.api.general;
+package td1.refactor.api.general;
 
 public class Meat implements Product {
 

@@ -1,4 +1,4 @@
-package td1.original.api.general;
+package td1.refactor.api.general;
 
 public class Cheddar implements Product {
     // 400 kcal / 100g
