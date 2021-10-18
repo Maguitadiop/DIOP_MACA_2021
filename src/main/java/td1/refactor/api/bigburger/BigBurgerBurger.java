@@ -1,5 +1,4 @@
 package td1.refactor.api.bigburger;
-
 import java.util.Arrays;
 import java.util.List;
 
