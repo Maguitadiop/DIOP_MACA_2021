@@ -2,9 +2,16 @@ package td1.refactor.api.macdeau;
 
 public class MacdeauRestaurant implements BurgerRestaurant{
 
-    public static MacdeauRestaurant  macres instanceof MacdeauRestaurant;
+    public static MacdeauRestaurant instance;
 
     public MacdeauRestaurant(){}
+
+    public static MacdeauRestaurant getInstance(){
+        if(instance == null){
+            instance = new MacdeauRestaurant();
+        }
+        return instance;
+    }
     
     public MacdeauRestaurant queue(){
 

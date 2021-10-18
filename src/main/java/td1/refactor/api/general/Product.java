@@ -1,3 +1,4 @@
-public class Product {
-    
+public interface Product {
+    double weight();
+    double price();
 }

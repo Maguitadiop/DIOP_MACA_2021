@@ -20,7 +20,13 @@ public class Tomato implements Product {
     }
 
     @Override
+    double calories_per_100g(){
+        
+    }
+
+    @Override
     public String toString() {
         return String.format("tomato, qty: %.0f -- %.2f", weight(), price());
     }
+  
 }

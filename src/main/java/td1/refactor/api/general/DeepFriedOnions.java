@@ -5,6 +5,7 @@ public class DeepFriedOnions implements Product {
 
     private double weight;
     private double BASE_PRICE = 1.5;
+    private double cal = 590.00
 
     public DeepFriedOnions(double weight) {
         this.weight = weight;
@@ -18,6 +19,10 @@ public class DeepFriedOnions implements Product {
     @Override
     public double price() {
         return BASE_PRICE * weight / 100;
+    }
+
+    double calories_per_100g(){
+        return val;
     }
 
     @Override

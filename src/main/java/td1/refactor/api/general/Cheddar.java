@@ -5,6 +5,7 @@ public class Cheddar implements Product {
 
     private double weight;
     private double BASE_PRICE = 4;
+    private double cal = 400;
 
     public Cheddar(double weight) {
         this.weight = weight;
@@ -18,6 +19,10 @@ public class Cheddar implements Product {
     @Override
     public double price() {
         return BASE_PRICE * weight / 100;
+    }
+
+    public double calories_per_100g(){
+        return cal;
     }
 
     @Override
